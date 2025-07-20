@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning How to Learn Toolkit</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Learning How to Learn Toolkit</h1>
+    <p>Curated by <strong>Nguyen Viet Nhat</strong> — distilled from <em>LHTL</em> course & personal notes</p>
+  </header>
+
+  <nav>
+    <a href="#modes">Thinking Modes</a>
+    <a href="#procrastination">Procrastination</a>
+    <a href="#memory">Memory & Chunking</a>
+    <a href="#practice">Practice Strategies</a>
+    <a href="#meta">Meta-Learning</a>
+    <a href="#neuro">Neuro-chemistry</a>
+    <a href="#video">Video</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#refs">References</a>
+  </nav>
+
+  <!-- THINKING MODES -->
+  <section id="modes">
+    <h2>Focused vs Diffuse Thinking</h2>
+    <p>Focused-mode is a high-attention state that zeroes in on relevant cues and follows a straight path toward familiar solutions—ideal for problem sets and code debugging.</p>
+    <p>By contrast, diffuse-mode wanders broadly, forming remote associations in a relaxed manner; it shines at big-picture understanding and creative leaps.</p>
+    <p>We can’t occupy both modes simultaneously, so effective learners alternate—short bouts of intense focus followed by breaks (walk, shower, day-dream) that let diffuse networks connect the dots.</p>
+  </section>
+
+  <!-- PROCRASTINATION -->
+  <section id="procrastination">
+    <h2>Overcoming Procrastination</h2>
+    <p>Neuroscience shows the discomfort spike of beginning a dull task fades within minutes; pushing through that window is half the battle.</p>
+
+    <div class="card">
+      <h3>Habit Loop</h3>
+      <ol>
+        <li><strong>Cue</strong> – time, place, mood, or preceding action.</li>
+        <li><strong>Routine</strong> – default behaviour (check socials, grab snack).</li>
+        <li><strong>Reward</strong> – dopamine hit that seals the loop.</li>
+        <li><strong>Belief</strong> – narrative that justifies “I work better under pressure.”</li>
+      </ol>
+      <p>Swap a healthier routine (e.g., start a 5-minute Pomodoro) while keeping the cue and reward unchanged.</p>
+    </div>
+
+    <p><strong>Process → Product:</strong> Commit to one Pomodoro; momentum often carries you far past five minutes.</p>
+
+    <ul>
+      <li>Eat-the-frog: tackle the ugliest, highest-impact task first.</li>
+      <li>Use “if-then” implementation intentions to wire new routines automatically.</li>
+      <li>End each day with a shutdown ritual—constraints guard recovery.</li>
+    </ul>
+  </section>
+
+  <!-- MEMORY -->
+  <section id="memory">
+    <h2>Memory & Chunking</h2>
+    <p>The prefrontal cortex holds only 4 slots of working memory; long-term memory is practically limitless but requires deliberate transfer.</p>
+    <p>Chunking binds scattered bits into meaningful patterns, freeing slots for reasoning and aiding leaps in the diffuse mode.</p>
+    <p>Spaced repetition allows neural “cement” to dry between reviews, exploiting the forgetting curve for durable storage.</p>
+
+    <h3>Sleep & Exercise</h3>
+    <p>During deep sleep the brain’s glymphatic system washes away metabolic toxins and replays neural patterns, consolidating learning. Regular exercise boosts BDNF, priming neurons for growth.</p>
+  </section>
+
+  <!-- PRACTICE STRATEGIES -->
+  <section id="practice">
+    <h2>Deliberate Practice & Interleaving</h2>
+    <p>Reading solutions feels fluent but breeds the Einstellung effect—old answers block fresh insight. Solve problems yourself first.</p>
+    <p>Interleaving mixes topics or problem types; it feels harder yet trains the brain to select the right tool, improving transfer and creativity.</p>
+    <p>Avoid mindless overlearning—once basics stick, switch topics or raise difficulty instead of hammering the same skill endlessly.</p>
+  </section>
+
+  <!-- META LEARNING -->
+  <section id="meta">
+    <h2>Meta-Learning & Illusions of Competence</h2>
+    <p>Highlighting and re-reading create a glow of familiarity but not mastery; only active-recall (flashcards, teaching aloud) exposes gaps.</p>
+    <p>Self-testing under time pressure and deliberate difficulty inoculate against the illusion of knowing.</p>
+  </section>
+
+  <!-- NEUROCHEMISTRY -->
+  <section id="neuro">
+    <h2>Neuromodulators & Motivation</h2>
+    <ul>
+      <li>Acetylcholine – sharpens spotlight attention; boosted by movement & choline-rich foods.</li>
+      <li>Dopamine – rises with unexpected rewards; sprinkle micro-celebrations to sustain drive.</li>
+      <li>Serotonin – regulates mood and risk; gratitude journaling steadies exam nerves.</li>
+      <li>Cortisol – chronic stress shrinks dendrites; paced breathing drops levels in minutes.</li>
+    </ul>
+  </section>
+
+  <!-- VIDEO -->
+  <section id="video">
+    <h2>Watch & Learn</h2>
+    <p>Short overview video of core concepts; replace with your custom recap to embed personal context.</p>
+    <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; max-width:100%;">
+      <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" title="Learning How to Learn Overview" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz">
+    <h2>Self-Check Quiz</h2>
+    <div id="quiz-container"></div>
+    <button id="next-btn" style="display:none; margin-top:1rem;">Next Question</button>
+    <p id="result" style="font-weight:bold; margin-top:1rem;"></p>
+  </section>
+
+  <!-- REFERENCES -->
+  <section id="refs">
+    <h2>References & Further Reading</h2>
+    <ul>
+      <li>Bransford, Brown & Cocking (2000) <em>How People Learn</em>.</li>
+      <li>Pan (2015) “The Interleaving Effect” – <em>Scientific American</em>.</li>
+      <li>Morris (2010) “The Anosognosic’s Dilemma” – <em>NY Times</em>.</li>
+      <li>Guida et al. (2012) Two-stage framework for chunk expertise.</li>
+      <li>Bergues (2016) Focus & Diffuse modes in physics education.</li>
+      <li>Ellis & Reingold (2014) The Einstellung effect in anagrams.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 <strong>Nguyen Viet Nhat</strong> | Learning How to Learn Project</p>
+  </footer>
+
+  <!-- QUIZ SCRIPT -->
+  <script>
+    const quiz = [
+      {question:"Which neural mode excels at creative big-picture insights?",choices:["Focused","Diffuse","REM","Flow"],answer:1},
+      {question:"Working memory holds roughly how many discrete slots?",choices:["2","4","7","Unlimited"],answer:1},
+      {question:"Mixing problem types to improve transfer is called…",choices:["Overlearning","Interleaving","Spaced repetition","Highlighting"],answer:1},
+      {question:"Which neurotransmitter spikes with unexpected rewards?",choices:["Serotonin","Acetylcholine","Dopamine","GABA"],answer:2}
+    ];
+    let current=0,score=0;
+    const box=document.getElementById('quiz-container'),btn=document.getElementById('next-btn'),out=document.getElementById('result');
+    function load(){const q=quiz[current];box.innerHTML=`<p><strong>Q${current+1}:</strong> ${q.question}</p>`+q.choices.map((c,i)=>`<label><input type='radio' name='c' value='${i}'> ${c}</label><br>`).join('');btn.style.display='inline-block';btn.textContent=current===quiz.length-1?'Submit':'Next';}
+    btn.addEventListener('click',()=>{const sel=document.querySelector("input[name='c']:checked");if(!sel){alert('Select an answer');return;}if(Number(sel.value)===quiz[current].answer)score++;current++;if(current<quiz.length)load();else{box.style.display='none';btn.style.display='none';out.textContent=`You scored ${score} / ${quiz.length}!`;}});
+    load();
+  </script>
+</body>
+</html>
